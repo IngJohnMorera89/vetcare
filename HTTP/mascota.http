@@ -1,2 +1,15 @@
 
 GET http://localhost:8080/api/mascotas
+
+####
+
+POST http://localhost:8080/api/mascotas
+Content-Type: application/json
+
+{
+  "nombre": "Firulais",
+  "especie": "Perro",
+  "raza": "Labrador",
+  "edad": 3,
+  "duenoId": 26
+}

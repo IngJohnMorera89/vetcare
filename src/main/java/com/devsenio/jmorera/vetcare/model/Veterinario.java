@@ -15,7 +15,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
 @Entity
-@Table(name = "veterinarios")
+@Table(name = "veterinario")
 public class Veterinario {
 
     @Id

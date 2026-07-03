@@ -1,2 +1,15 @@
 
 GET http://localhost:8080/api/duenos
+
+#######
+
+POST http://localhost:8080/api/duenos
+Content-Type: application/json
+
+{
+ "nombre": "Juan",
+  "apellido": "Pérez",
+  "documento": "1020304050",
+  "telefono": "3001234567",
+  "email": "juan.perez@correo.com"
+}

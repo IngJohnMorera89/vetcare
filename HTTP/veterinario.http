@@ -1,2 +1,12 @@
 
 GET http://localhost:8080/api/veterinarios
+
+###
+POST http://localhost:8080/api/veterinarios
+Content-Type: application/json
+
+{
+    "nombre": "Dra. Laura Gómez",
+    "especialidad": "Cirugía",
+    "tarjetaProfesional": "TP-55521"
+}

@@ -1,2 +1,15 @@
 
 GET http://localhost:8080/api/citas
+
+####
+POST http://localhost:8080/api/citas
+Content-Type: application/json
+
+{
+    "fecha": "2026-07-15",
+    "motivo": "Vacunación anual",
+    "estado": "PENDIENTE",
+    "costo": 85000,
+    "mascotaId": 1,
+    "veterinarioId": 1
+}
