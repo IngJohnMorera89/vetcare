@@ -13,3 +13,11 @@ Content-Type: application/json
   "telefono": "3001234567",
   "email": "juan.perez@correo.com"
 }
+
+###
+DELETE http://localhost:8080/api/duenos/1
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJKb2huIiwicm9sIjoiQURNSU4iLCJpYXQiOjg2NDAwLCJleHAiOjE3ODQ5Mjg0MTN9.5dnlezu4QKBbghhfptIj4dYY4cXNF3j7DPKhXtz7off8rx-a1KtIVV_PTuCY3u-o
+
+###
+GET http://localhost:8080/api/duenos/9999
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJKb2huIiwicm9sIjoiQURNSU4iLCJpYXQiOjg2NDAwLCJleHAiOjE3ODQ5MjkwNzV9.51g6LXIWMKtR3x5IjXsP0D9319cjQCdIGb-7TUI0-8OJPqS4MAIkRY3ZFhkHZRF2
